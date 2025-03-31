@@ -1,0 +1,14 @@
+# Ignore sensitive files
+*.pem
+*.key
+*.crt
+*.pfx
+*.env
+certs/
+
+# Ignore dependency directories
+node_modules/
+
+#package-lock.json files
+package-lock.json
+
