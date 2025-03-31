@@ -27,6 +27,8 @@ If you need to run the app with your own private and public keys,follow the step
   openssl ec -in private.pem -pubout -out public.pem
   ```
 
+- Step(3). Copy and paste the public and private keys into the certs folder
+
 ## Install the dependancies
 
 ```bash
