@@ -17,15 +17,15 @@ If you need to run the app with your own private and public keys,follow the step
 
   - private key
 
-```bash
-openssl ecparam -name prime256v1 -genkey -noout -out private.pem
-```
+  ```bash
+  openssl ecparam -name prime256v1 -genkey -noout -out private.pem
+  ```
 
-    - public key
+  - public key
 
-```bash
-openssl ec -in private.pem -pubout -out public.pem
-```
+  ```bash
+  openssl ec -in private.pem -pubout -out public.pem
+  ```
 
 ## Install the dependancies
 
